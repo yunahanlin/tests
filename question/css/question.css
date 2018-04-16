@@ -1,0 +1,94 @@
+*{
+    font-family: "SimHei";
+    margin: 0 ;
+    padding: 0;
+    border: none;
+}
+html {
+  font-size: 20px;  
+  /**
+  *1rem=40px  640px的设计稿    750的化 750/640 px=1rem
+  **/
+}
+@media only screen and (min-width: 400px) {
+  html {
+    font-size: 21.33333333px !important;
+  }
+}
+@media only screen and (min-width: 414px) {
+  html {
+    font-size: 22.08px !important;
+  }
+}
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 25.6px !important;
+  }
+}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.big_title{
+    padding: 0 0.6rem;
+    color:#333333;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-bottom: 1px solid #e5e5e5;
+}
+.art_box{
+    padding: 0 0.6rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+.art_title{
+    color:#333333;
+    font-size: 0.75rem;
+    padding:0.8rem 0;
+    line-height:0.9rem;
+    background: url(../images/Icon-right.png) right center  no-repeat;
+	background-size:15px auto;
+
+}
+.art_title p{
+    width: 81%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    /*white-space: normal;*/
+}
+.art_answ{
+    width:88%;
+    font-size:0.6rem;
+    color: #a5a5a5;
+    padding:0.5rem 0;
+    line-height:0.95rem;
+    margin: auto;
+    margin-top:-0.5rem;
+    text-align: justify;
+}
+.cur{
+    background: url(../images/Icon-bottom.png) right center  no-repeat;
+    background-size:15px auto;
+}
+.hide{
+    display: none;
+}
+.height30{
+    height: 0.75rem;
+}
+
+
+.art_answ>p{margin: 5px 0;}
+.qabg{width:100%;margin:5px auto;border-bottom: 1px #a5a5a5 solid;}
+.qabg>span{display: block;width: 100%;border-top: 1px #a5a5a5 solid;border-right: 1px #a5a5a5 solid;overflow: hidden;}
+.qabg>span>em{float:left;width:48%;border-left:1px #a5a5a5 solid;text-align: center;font-style: normal;}

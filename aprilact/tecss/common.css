@@ -1,0 +1,90 @@
+body {
+    background: #ea594e;
+}
+.mainbody {
+    width: 10rem;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.actpart {
+    width: 10rem;
+    font-size: 0;
+    margin: 0 auto;
+}
+.actpart img {
+    width: 100%;
+}
+.slider-wraper {
+    padding-bottom: 0.7rem;
+    padding-top: 0.7rem;
+    margin: 0 auto;
+    background: #efea3a;
+    border-left: 0.591rem solid #ea594e;
+    border-right: 0.59rem solid #ea594e;
+    font-size: 0;
+    box-sizing: border-box;
+}
+.slider {
+    width: 10rem;
+    height: 1.08rem;
+    margin-left: -20px;
+    background-size: 100% 100%;
+}
+.slider img {
+    width: 10rem;
+    height: 1.08rem;
+}
+.sliderall {
+    background: url("../teimg/slideall.png") no-repeat;
+    background-size: 100% 100%;
+}
+.slider14 {
+    background: url("../teimg/slider14.png") no-repeat;
+    background-size: 100% 100%;
+}
+.slider17 {
+    background: url("../teimg/slider17.png") no-repeat;
+    background-size: 100% 100%;
+}
+.slider20 {
+    background: url("../teimg/slider20.png") no-repeat;
+    background-size: 100% 100%;
+}
+.slider23 {
+    background: url("../teimg/slider23.png") no-repeat;
+    background-size: 100% 100%;
+}
+.slider26 {
+    background: url("../teimg/slider26.png") no-repeat;
+    background-size: 100% 100%;
+}
+.draw {
+    display: block;
+    margin-top: 1.08rem;
+    /*margin-bottom: 0.74rem;*/
+    /*background: #efea3a;*/
+}
+#draw-btn {
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
+    display: block;
+    width: 4.19rem;
+    height: 1.018rem;
+    margin: 0 auto;
+}
+.drawbtn {
+    background: url("../teimg/drawbtn.png") no-repeat;
+    background-size: 100% 100%;
+}
+.hasget {
+    background: url("../teimg/hasget.png") no-repeat;
+    background-size: 100% 100%;
+}
+.time {
+    background: url("../teimg/time.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.tip { display: none; position: fixed; top: 50%; left: 0; z-index: 38; width: 100%; text-align: center; }
+.tip-txt { display: inline-block;font-size: 14px; padding: 8px 12px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background-color: rgba(0,0,0,.6); color: #FFF; }

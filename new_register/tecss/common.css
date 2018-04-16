@@ -1,0 +1,210 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html,body,div,ul,ol,li,p,h3,h4,span,input,textarea,select,option,table,tr,td,h2,h1,dl,dt,dd,
+h5{padding:0;margin:0;box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+body{font-family:"微软雅黑";width:100%;min-width:320px;color:#000;-moz-text-size-adjust:none;-webkit-text-size-adjust:none;text-size-adjust:none;font-size: 14px;-webkit-overflow-scrolling: touch; /* ios5+ */}
+img{border:none;}
+html{font-size:100px;}
+ul,li{list-style-type:none;}
+em,i{font-style: normal;}
+input{outline: none;}
+input[type="button"], input[type="submit"], input[type="reset"] {
+-webkit-appearance: none;
+}
+a{text-decoration:none; color:#000;}
+.clear{display: block;overflow: hidden;clear: both;height: 0;line-height: 0;font-size: 0;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{height:1%;}
+.pr{position: relative;z-index: 0;}
+.pa{position: absolute;}
+.fl{float:left; display:block;}
+.fr{float:right; display:block;}
+.main{width:100%;/*height:100%;*/min-width:320px;margin:0 auto;max-width:640px;/*overflow: hidden;overflow-x: hidden;*/}
+.cls{ clear:both;}
+/****iconfont****/
+@font-face {font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot'); 
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/iconfont.woff') format('woff'), 
+    url('../fonts/iconfont.ttf') format('truetype'), 
+    url('../fonts/iconfont.svg#uxiconfont') format('svg'); 
+}
+.iconfont{
+    font-family:"iconfont" !important;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+input-placeholder{color:#ccc;}
+::-moz-input-placeholder{color:#ccc;}
+::-ms-input-placeholder{color:#ccc;}
+::-webkit-input-placeholder{color:#ccc;}
+::-o-input-placeholder{color:#ccc;}
+
+
+.appledec{display: block;font-size: 0.2rem;color: #ffb0a6;line-height:0.32rem;font-weight: bold;padding: 0.1rem 0;width: 92%;margin: auto;text-align:center;padding-bottom: 1rem;}
+
+/* content
+----------------------------------------------------------*/
+
+/*regist*/
+/*.regbj{background: #ff803b;}*/
+
+.tgimg{width: 100%;}
+.tgimg>img{width: 100%;}
+#lbaform{width: 5.19rem;margin: auto;}
+.tgljvv{width: 100%;padding:0px 0 50px 0;background:#ffd5b3;}
+.tgregv{width:5.8rem;margin:auto;background: #ffe8d6;padding:30px 0 50px 0;}
+
+
+.lbargbm{display:none;width: 100%;height: 0.95rem;position: fixed;bottom: 0;left: 0;overflow: hidden;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#B2000000', endColorstr='#B2000000');background:rgba(0,0,0,0.7);}
+.lrgmimgf{float: left;width: 0.7rem;height: 0.7rem;margin: 0.13rem 0 0 0.26rem;}
+.lrgmimgf>img{width: 100%;}
+.lbargbm>p{float: left;margin: 0.12rem 0 0 0.17rem;}
+.lbargbm>p>span{display: block;font-size: 0.24rem;color: #fff;font-weight: bold;}
+.lbargbm>p>em{display: block;font-size: 0.24rem;color: #fff;}
+.lbargbm>a{float:right;background: url(../teimg/app.png) no-repeat;background-size:contain;width: 1.3rem;height: 0.54rem;margin:0.22rem 0.64rem 0 0;}
+.lrgclose{position: absolute;right: 0;top: 0;background: url(../teimg/quxiao.png) no-repeat;background-size:contain;width: 0.5rem;height: 0.5rem;}
+
+
+.labforii2{margin-top: 0.6rem !important;}
+.labforii{font-size: 0.18rem;line-height:0.22rem;color: #fff;text-align: center;display: block;margin-top: 0.1rem;}
+/*.lbaregismain{width: 100%;overflow: hidden;min-height:12.08rem;background:url(../teimg/lbaregbj.png) repeat-x;}*/
+.lbaregismain{width: 100%;overflow: hidden;min-height:12.08rem;position: absolute;left: 0;top: 0;background:#ffd5b3;padding-bottom: 1rem;}
+.lrban{width:5.09rem;margin:0.2rem auto 0.24rem auto;}
+.lrban>img{width: 100%;margin: auto;}
+.lrgg{width:5.2rem;margin:auto;}
+.lrgg>img{width: 100%;}
+#lbaform{margin-top: 0.4rem;position: relative;}
+.lbaregtel{width:5.19rem;height: 0.78rem;margin:0 auto 0.3rem auto;position: relative;background:#fff;border-radius: 0.95rem;}
+.lbaregcodv{width: 5.19rem;height: 0.78rem;margin:0 auto 0.5rem auto;position: relative;overflow: hidden;}
+.lbacodimg{width: 5.19rem;height: 0.78rem;margin:0 auto 0.3rem auto;position: relative;overflow: hidden;}
+.lbaregtel>img{float:left;width: 0.55rem;height: 0.54rem;margin:0.13rem 0 0 0.35rem;}
+.lbaregtel>input{float:left;width:3.5rem;border: none;outline: none;background:none;margin-left: 0.2rem;font-size: 0.3rem;color: #333;line-height: 0.3rem;padding-top: 0.22rem;padding-bottom: 0.22rem;}
+.lbacodf{width:3.45rem;height:100%;float: left;overflow: hidden;background:#fff;border-radius: 0.95rem;}
+/*.lbacodr{float: right;width:1.55rem;height:100%;text-align:center;font-size: 0.22rem;line-height:0.78rem;color: #ee540c;background:#fff41b;border-radius: 0.95rem;}
+*/
+.lbacodr{float: right;width:1.55rem;height:100%;text-align:center;font-size: 0.22rem;line-height:0.78rem;color: #fff;background:#ff5a5a;border-radius: 0.95rem;}
+.lbacodimgr{float: right;width:1.45rem;height:100%;}
+.lbacodimgr>img{width: 1.3rem;}
+
+
+
+
+.lbacodf>img{float:left;width: 0.6rem;height: 0.54rem;margin:0.13rem 0 0 0.3rem;}
+.lbacodf>input{float:left;width:2rem;border: none;outline: none;background:none;margin-left: 0.2rem;font-size: 0.3rem;color: #333;line-height: 0.3rem;padding-top: 0.22rem;padding-bottom: 0.22rem;}
+
+
+/*.regsumit{width:5.19rem;background: #ffff18;color: #ee540c;font-size: 0.34rem;text-align: center;display: block;border: none;line-height: 0.34rem;padding-bottom: 0.25rem;padding-top: 0.27rem;
+border-radius: 0.95rem !important;overflow: hidden;margin: auto;}*/
+.regsumit{width:5.19rem;background: #ff5a5a;color: #fff;font-size: 0.42rem;text-align: center;display: block;border: none;line-height: 0.34rem;padding-bottom: 0.25rem;padding-top: 0.27rem;
+border-radius: 0.95rem !important;overflow: hidden;margin: auto;font-weight: bold;}
+
+
+.lbargbm{width: 100%;height: 0.95rem;position: fixed;bottom: 0;left: 0;overflow: hidden;}
+.lbaregtel label{color:#ffa5a5 !important;font-size:0.16rem !important;position: absolute;left: 0;/*bottom: -1.44rem;*/ bottom: -2.5rem;}
+.lbaregcodv label{color:#ffa5a5 !important;font-size:0.16rem !important;position: absolute;left: 0;bottom: -0.35rem;}
+.lbacodimg label{color:#ffa5a5 !important;font-size:0.16rem !important;position: absolute;left: 0;bottom: -1.43rem;}
+.curdis{display: none !important;}
+.disabled { pointer-events: none !important; }
+#lbamessageout{display:block !important;color:#ffa5a5 !important;font-size:0.16rem !important;border: none;background:none;width: 5.19rem;margin: auto;margin-top:0.1rem;margin-bottom: 0.1rem;position: absolute;top:2.95rem;left:50%;margin-left:-2.58rem;}
+
+/*已经是会员*/
+.memberready{width: 100%;height: 100%;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#8E000000', endColorstr='#8E000000');background:rgba(0,0,0,0.56);position: fixed;left: 0;top: 0;z-index: 9994;}
+.mebredv{width: 4.5rem;height: 5.6rem;overflow: hidden;position: absolute;left: 50%;top:50%;margin-left: -2.25rem;margin-top: -2.8rem;z-index: 9995;background: #fff;border-radius: 0.2rem;}
+.mebredclo{width: 0.24rem;height: 0.24rem;position: absolute;right: 0.3rem;top: 0.3rem;z-index: 996;}
+.mebredclo>img{width: 100%;}
+.mebredtit{width: 100%;height: 0.95rem;border-bottom:0.02rem #e5e5e5 solid;font-size: 0.34rem;color: #333333;line-height: 0.95rem;text-align: center;display: block;font-weight: bold;margin-bottom: 0.4rem;}
+.mebredtita{display: block;font-size: 0.28rem;color: #646464;text-align: center;margin-bottom: 0.1rem;}
+.meblog{width:2.35rem;height:1.74rem;margin: 0.28rem auto 0.38rem auto;}
+.meblog>img{width: 100%;}
+.mebredlogin{width:3.8rem;height: 0.7rem;margin: auto;border-radius: 0.1rem;background: #00aaee;font-size: 0.3rem;color: #fff;line-height:0.7rem;text-align: center;display: block;font-weight: bold;}
+
+
+
+
+/*注册-成功*/
+.regsuccessma{width: 100%;}
+.reg-success-top{width: 100%;margin: auto;}
+.reg-success-top>img{width: 100%;}
+.regsuccessma>span{display: block;text-align: center;width: 90%;margin:0.5rem auto 0.35rem auto;font-size: 0.32rem;color: #333;font-weight: bold;}
+.regsuccessma>em{display: block;text-align: center;width: 90%;margin:0rem auto 0.15rem auto;font-size: 0.24rem;color: #ff8301;}
+.regsuccessma>i{display: block;text-align: center;width: 90%;margin:0rem auto 0.85rem auto;font-size: 0.24rem;color: #333;}
+.regsuccessma>a{display: block;text-align: center;width:4.6rem;/*height:0.3rem;*/margin:auto;font-size: 0.3rem;color: #fff;font-weight: bold;background: #ff7b00;padding: 0.2rem 0 0.23rem 0;border-radius: 0.55rem;}
+
+/*邀请好友*/
+.fvbmbj{background: url(../teimg/ivfdcjbj.jpg) no-repeat;background-size:contain;width:100%;height: 6.2rem;margin: auto;padding-top: 0.48rem;}
+.invitefriend{width: 100%;}
+.invfridban{width: 100%;}
+.invfridban>img{width: 100%;}
+.invfirdma{background:#dc4e3b;width: 100%;}
+.ivfdchan{width:3.58rem;margin:auto;height: 0.65rem;border-radius: 0.35rem;padding:0.03rem 0 0 0.15rem;overflow: hidden;}
+.ivfdchan>p{float:left;width:0.5rem;height: 0.52rem;}
+.ivfdchan>p>img{width: 100%;height: 100%;}
+.ivfdchan>span{float:left;width: 2.8rem;height:0.52rem;overflow:hidden;margin-left: 0.1rem;line-height: 0.52rem;padding-top: 0.03rem;}
+.ivfdchan>span>em{font-size: 0.24rem;color: #fff;}
+.ivfdchan>span>i{font-size: 0.34rem;color: #ffff3c;}
+.ivfidcjv{width:6.4rem;height:5.93rem;margin:0.2rem auto 0 auto;background: url(../teimg/ivfdcjbj.jpg) no-repeat;background-size: contain;padding-top:0.96rem;}
+.ivfidresult{display: block;width: 90%;margin: auto;font-size: 0.3rem;color: #fff;text-align: center;height: 0.3rem;}
+.ivfidresult>em{color:#ffff16 !important;margin-left: 0.05rem;}
+
+.ivfidmessage{width:100%;height:0.52rem;overflow: hidden;position: fixed;left: 0;top: 0;background: #ad3e2f;}
+.ivfidmessage>p{width: 0.36rem;height: 0.36rem;margin:0.08rem 0.2rem 0 0.3rem;float: left;}
+.ivfidmessage>p>img{width: 100%;height: 100%;}
+.lbafxms{width:100%;margin:0rem auto 0 auto;}
+.lbafxms>img{width: 100%;}
+
+/*.cjjgtstcv{width:4.92rem;height:4.72rem;position: fixed;left: 50%;margin-left: -2.46rem;top: 50%;margin-top: -2.36rem;z-index: 999;border-radius: 0.2rem;box-shadow: 0 0 0.6rem #b44020;overflow: hidden;}*/
+.cjjgtstcv{width:100%;height:100%;position: fixed;z-index: 999;box-shadow: 0 0 0.6rem #b44020;overflow: hidden;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);}
+.cjjgxsvv{width:4.92rem;height:4.72rem;position: fixed;left: 50%;margin-left: -2.46rem;top: 50%;margin-top: -2.36rem;z-index: 999;overflow: hidden;border-radius:0.2rem;box-shadow:0 0 0.3rem #444;}
+.cjjgxsvv>p{width:4.92rem;height:4.72rem;}
+.cjjgxsvv>p>img{width: 100%;}
+.cjjgxsvv>span{display:block;background:url(../teimg/sjjgtctcclo.png) no-repeat;background-size:contain;width: 0.47rem;height: 0.47rem;position:absolute;right: 0.2rem;top: 0.2rem;z-index: 9999;}
+.cjjgxsvv>em{display: block;width:4.6rem;position: absolute;left: 50%;margin-left: -2.3rem;top:2.85rem;font-size: 0.3rem;color: #333333;font-weight: bold;text-align: center;}
+
+.zhinvv{padding: 0.2rem 0 0.3rem;}
+.zhinvint{display: block;font-size: 0.2rem;color: #ffb0a6;line-height:0.32rem;font-weight: bold;padding: 0.1rem 0;width: 92%;margin: auto;text-align: justify;}
+
+
+/*抽奖转盘*/
+#lottery {
+	width:5.15rem;
+	height:4.23rem;
+	margin: 0.5rem auto;
+}
+
+#lottery table td {
+	position: relative;
+	width:1.71rem;
+	height:1.41rem;
+	text-align: center;
+	color: #333;
+	font-index: -999
+}
+#lottery table td img {
+	display: block;
+	width:1.71rem;
+	height:1.41rem;
+}
+#lottery table td.active .mask {
+	display: block;
+}
+.mask {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#4C000000', endColorstr='#4C000000');background:rgba(0,0,0,0.3);
+	/*background-color: rgba(252, 211, 4, 0.8);*/
+	display: none;
+	border-radius: 0.25rem;
+}
+
+
+.curback{background: #000;opacity: 0.5;}
+
+
+/*获奖结果的上下切换*/
+.marquee2{width:92%;height:0.52rem;overflow:hidden;font-size:0.24rem;color: #ffefd6;line-height:0.52rem;margin: auto;}
+.marquee2 ul li{float:left;padding-right: 0.5rem;color: #ffefef;}

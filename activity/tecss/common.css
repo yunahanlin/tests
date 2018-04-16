@@ -1,0 +1,61 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html,body,div,ul,ol,li,p,h3,h4,span,input,textarea,select,option,table,tr,td,h2,h1,dl,dt,dd,
+h5{padding:0;margin:0;box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+body{font-family:"微软雅黑";width:100%;height:100%;/*overflow: hidden;*/min-width:320px;color:#000;-moz-text-size-adjust:none;-webkit-text-size-adjust:none;text-size-adjust:none;font-size: 14px;-webkit-overflow-scrolling: touch; /* ios5+ */}
+img{border:none;}
+html{font-size:100px;}
+ul,li{list-style-type:none;}
+input{outline: none;}
+em,i{font-style:normal;}
+a{text-decoration:none; color:#000;}
+.clear{display: block;overflow: hidden;clear: both;height: 0;line-height: 0;font-size: 0;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{height:1%;}
+.pr{position: relative;z-index: 0;}
+.pa{position: absolute;}
+.fl{float:left; display:block;}
+.fr{float:right; display:block;}
+.dqwz{text-align:justify; text-justify:inter-ideograph;}
+.main{width:100%;height:100%;min-width:320px;margin:0 auto;max-width:750px;overflow: hidden;}
+.cls{ clear:both;}
+input[type=”button”], input[type=”submit”], input[type=”reset”] {-webkit-appearance: none;vertical-align: middle;}
+/****iconfont****/
+@font-face {font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot'); 
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/iconfont.woff') format('woff'), 
+    url('../fonts/iconfont.ttf') format('truetype'), 
+    url('../fonts/iconfont.svg#uxiconfont') format('svg'); 
+}
+.iconfont{
+    font-family:"iconfont" !important;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.zhacti,.zhacti>img{width: 100%;}
+.jbtest>a{display: block;padding:0.2rem 0 0.2rem 0;}
+.jbtest img{display: block;width: 94%;border-radius: 0.2rem;box-shadow:0 0 0.2rem #a77845;margin: auto;}
+
+.jbtest{width: 100%;padding:0.5rem 0;min-height:10rem;
+    background: -webkit-linear-gradient(#ff9882,#ffbd9b); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#ff9882,#ffbd9b); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#ff9882,#ffbd9b); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#ff9882,#ffbd9b); /* 标准的语法（必须放在最后） */}
+
+
+
+
+
+
+
+
+
+
+
+
+
